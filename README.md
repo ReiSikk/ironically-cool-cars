@@ -1,0 +1,3 @@
+Project for the most ironically-cool-cars selling website around KB.
+You only in gods hands, NO GARANTI WITH US.
+God bless y'all....
