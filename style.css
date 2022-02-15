@@ -1,0 +1,35 @@
+/* *******PRODUCT CARD********* */
+h2 {
+  font-family: lores-9-wide, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.price {
+  font-size: 1.618rem;
+  margin-top: 1rem;
+}
+#card {
+  border: solid 2px black;
+  padding: 0.5rem;
+  margin: auto;
+  width: 70%;
+  height: 100%;
+  background-color: #c1bfc2;
+}
+#productInfo {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+.card-header {
+  padding: 0.75rem;
+  margin-top: 0;
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+.card-button {
+  background-color: #070081;
+  padding: 0.5rem;
+  border: solid 2px black;
+}
