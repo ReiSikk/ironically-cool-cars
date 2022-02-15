@@ -13,12 +13,16 @@ body {
 }
 
 ul {
-    background-color: #1e2c2c;
     display: flex;
     justify-content: right;
     margin: 0;
     height: 10vh;
     align-items: center;
+    border-top: white 2px solid;
+    border-left: white 2px solid;
+    border-right: black 2px solid;
+    border-bottom: black 2px solid;
+    background-color: #c1bfc2;
 }
 
 ul li {
@@ -27,7 +31,8 @@ ul li {
 }
 
 ul li a {
-    color: white;
+    color: #000000;
+    font-size: 1.6rem;
 }
 
 .intro-img {
