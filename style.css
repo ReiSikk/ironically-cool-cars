@@ -162,6 +162,12 @@ ul li a {
 
 body {}
 
+.intro-img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
 article {
     background-color: #a59e9e;
     width: 80%;
