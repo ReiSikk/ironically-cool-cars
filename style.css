@@ -32,7 +32,7 @@ ul li a {
 }
 
 .intro-img {
-  width: 50%;
+  width: 100%;
   height: auto;
   margin: auto;
 }
@@ -167,7 +167,8 @@ li {
 
 .footer {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  text-align: center;
   align-items: center;
   background-color: #c1bfc2;
   border-top: solid 4px#000000;
@@ -176,5 +177,9 @@ li {
   height: 15vh;
 }
 .footer-content {
-  line-height: 5vh;
+  line-height: 7vh;
+  justify-content: center;
+}
+.footer-span {
+  color: #008282;
 }
