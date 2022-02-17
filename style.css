@@ -223,10 +223,15 @@ li {
     text-align: center;
     align-items: center;
     background-color: #c1bfc2;
-    border-top: solid 4px#000000;
+    /*border-top: solid 4px#000000;*/
     padding: 1rem;
     list-style: none;
     height: 15vh;
+    align-items: center;
+    border-top: white 2px solid;
+    border-left: white 2px solid;
+    border-right: black 2px solid;
+    border-bottom: black 2px solid;
 }
 
 .footer-content {
@@ -236,4 +241,16 @@ li {
 
 .footer-span {
     color: #008282;
+}
+
+/* PRODUCT PAGE */
+.product {
+    margin: 3rem 0rem;
+}
+em {
+    font-weight: bold;
+    font-style: normal;
+}
+.description {
+    max-width: 65ch;
 }
