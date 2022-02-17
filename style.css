@@ -60,6 +60,16 @@ ul li a {
     margin: auto;
 }
 
+.intro p {
+    text-align: center;
+    max-width: 75%;
+    color: #ffffff;
+    line-height: 1.8rem;
+    font-size: 1.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 article {
     background-color: #c1bfc2;
     width: 80%;
@@ -89,12 +99,6 @@ a {
 /* *******PRODUCT CARD********* */
 
 .car-container {
-    /*     max-width: 100%;
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 100px));
-    gap: 2rem;
-    padding: 1rem; */
     display: flex;
     flex-direction: column;
 }
@@ -154,17 +158,16 @@ h3 {
     color: #008282;
 }
 
-.car a {
+#buttonDiv a {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    border-top: 2px solid #fff;
+    border-top: 2px solid#fff;
     border-left: 2px solid #fff;
-    background-color: #c1bfc2;
 }
 
-button:hover {
+#buttonDiv a:hover {
     transform: scale(1.2);
     transition: all 0.1s linear;
     cursor: pointer;
@@ -287,4 +290,8 @@ em {
     display: flex;
     align-items: center;
     color: rgb(0, 0, 0);
+}
+
+.productview {
+    width: 100%;
 }
