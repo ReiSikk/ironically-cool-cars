@@ -15,6 +15,8 @@ function showCars(cars) {
   console.log(cars);
   document.querySelector(".price").textContent = cars.price + " " + "$";
   document.querySelector(".production_year").textContent = cars.production_year;
+  document.querySelector(".card-header").textContent = cars.brand;
+  document.querySelector(".horsepower").textContent = cars.horse_power;
   document.querySelector(".colour").textContent = cars.colour;
   document.querySelector(".brand").textContent =
     cars.brand + " / " + cars.model;
