@@ -25,5 +25,5 @@ function showCars(cars) {
     cars.seated_passengers;
   document.querySelector(
     ".product-card-photo"
-  ).src = `http://gareth.dk/data/${cars.id}.jpeg`;
+  ).src = `https://mediarei.com/data/${cars.id}.jpeg`;
 }
