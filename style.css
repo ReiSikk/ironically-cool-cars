@@ -107,7 +107,7 @@ a {
     max-width: 100%;
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(auto-fill, minmax(270px, 100px));
+    grid-template-columns: repeat(auto-fill, minmax(271px, 100px));
     gap: 2rem;
     padding: 1rem;
 }
@@ -122,9 +122,9 @@ a {
     border-right: black 2px solid;
     border-bottom: black 2px solid;
     background-color: #c1bfc2;
-    height: 60vh;
     display: flex;
     flex-direction: column;
+    height: 65vh;
 }
 
 img {
@@ -168,18 +168,21 @@ h3 {
 }
 
 #buttonDiv a:hover {
-    transform: scale(1.2);
-    transition: all 0.1s linear;
-    cursor: pointer;
+    transform: scale(1.6);
+    transition: 0.1s linear;
 }
 
 img {
     max-width: 100%;
+    height: 100%;
 }
 
 figure {
     width: 100%;
     margin: auto;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
 }
 
 p,
