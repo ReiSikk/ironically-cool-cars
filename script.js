@@ -38,7 +38,9 @@ function showCars(cars) {
     copy.querySelector(".card-header").textContent = cars.brand;
     copy.querySelector(".brand").textContent = cars.brand + "/" + cars.model;
     copy.querySelector(".price").textContent = cars.price + "$";
-
+    copy.querySelector(
+        ".product-card-photo"
+    ).src = `http://gareth.dk/data/1000/${cars.id}.jpeg`;
     const parent = document.querySelector(".yy");
     parent.appendChild(copy);
 }
