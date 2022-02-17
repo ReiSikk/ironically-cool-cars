@@ -27,7 +27,7 @@ function showCars(cars) {
     copy.querySelector(".brand").textContent = cars.brand + "/" + cars.model;
     copy.querySelector(".price").textContent = "Price : " + cars.price + "$";
     copy.querySelector(
-        ".product-card-photo"
+        ".products-card-photo"
     ).src = `http://gareth.dk/data/${cars.id}.jpeg`;
     copy.querySelector("a").setAttribute("href", `product.html?id=${cars._id}`);
     const parent = document.querySelector(".yy");
