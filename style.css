@@ -227,8 +227,10 @@ li {
 
 .about_article {
     margin-bottom: 10rem;
+    line-height: 2rem;
     display: flex;
     flex-direction: column;
+    text-align: center;
     border: 2px solid grey;
     padding: 2rem;
     position: relative;
@@ -242,6 +244,12 @@ li {
     padding: 1rem;
     margin: 3rem;
     text-align: center;
+}
+
+.about_article img {
+    width: 60%;
+    height: auto;
+    margin: auto;
 }
 
 
