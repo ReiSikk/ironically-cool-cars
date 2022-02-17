@@ -37,7 +37,7 @@ function showCars(cars) {
     const copy = template.cloneNode(true);
     copy.querySelector(".card-header").textContent = cars.brand;
     copy.querySelector(".brand").textContent = cars.brand + "/" + cars.model;
-    copy.querySelector(".price").textContent = cars.price + "$";
+    copy.querySelector(".price").textContent = "Price : " + cars.price + "$";
     copy.querySelector(
         ".product-card-photo"
     ).src = `http://gareth.dk/data/${cars.id}.jpeg`;

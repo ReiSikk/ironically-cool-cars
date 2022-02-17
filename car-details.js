@@ -12,9 +12,9 @@ fetch(url, options)
     .then((data) => showCars(data));
 
 function showCars(cars) {
-    console.log(cars); /*product.html?id=1000 */
-    document.querySelector(".price").textContent = cars.price + " " + "$";
-    document.querySelector(".price").textContent = cars.price + " " + "$";
+    console.log(cars);
+    document.querySelector(".price").textContent =
+        "Price :" + cars.price + " " + "$";
     document.querySelector(
         ".product-card-photo"
     ).src = `http://gareth.dk/data/${cars.id}.jpeg`;
