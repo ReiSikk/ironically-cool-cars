@@ -40,7 +40,8 @@ function showCars(cars) {
     copy.querySelector(".price").textContent = cars.price + "$";
     copy.querySelector(
         ".product-card-photo"
-    ).src = `http://gareth.dk/data/1000/${cars.id}.jpeg`;
+    ).src = `http://gareth.dk/data/${cars.id}.jpeg`;
+    copy.querySelector("a").setAttribute("href", `product.html?id=${cars._id}`);
     const parent = document.querySelector(".yy");
     parent.appendChild(copy);
 }

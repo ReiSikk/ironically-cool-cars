@@ -7,23 +7,15 @@ const options = {
         "x-apikey": "620e4b1534fd62156585872a",
     },
 };
-
 fetch(url, options)
-    .then((response) => {
-        if (!response.ok) {}
-        return response.json();
-    })
-    .then((data) => {
-        handleProductList(data);
-    });
-
-function handleProductList(data) {
-    data.forEach(showCars);
-}
+    .then((res) => res.json())
+    .then((data) => showCars(data));
 
 function showCars(cars) {
-    console.log(cars);
-    document.querySelector(".price").textContent = cars.price;
-    /*product.html?id=1000 */
-    copy.querySelector("a").setAttribute("href", `product.html?id=${cars.id}`);
+    console.log(cars); /*product.html?id=1000 */
+    document.querySelector(".price").textContent = cars.price + " " + "$";
+    document.querySelector(".price").textContent = cars.price + " " + "$";
+    document.querySelector(
+        ".product-card-photo"
+    ).src = `http://gareth.dk/data/${cars.id}.jpeg`;
 }
